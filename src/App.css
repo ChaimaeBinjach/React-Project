@@ -1,3 +1,15 @@
 .navbar{
-  background: rgb(45, 102, 209) ;
+  background: #2e158c ;
+}
+.brand, .list_item{
+  color: #fff !important;
+}
+.list_item:hover{
+  color: tomato !important;
+}
+
+.btn{
+  background: tomato !important;
+  border: none;
+  border-radius: 20px;
 }
