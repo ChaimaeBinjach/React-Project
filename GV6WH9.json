@@ -1,55 +1,5 @@
 {
-  "fakepeople": [
-    {
-      "id": "9665wo68otba",
-      "name": "Alejandro Ondricka",
-      "email": "Alejandro76@yahoo.com",
-      "address": "2667 Jocelyn Ridges Apt. 102 Sibylside",
-      "birthdate": "Sep 06 1964",
-      "jobarea": "Brand",
-      "companyname": "Schoen - Walter",
-      "creditcardnum": "4507-2463-1967-2647"
-    },
-    {
-      "id": "89hz87dgkw42",
-      "name": "Florence Ruecker",
-      "email": "Florence.Ruecker@hotmail.com",
-      "address": "07399 Turner Crest Apt. 191 Huntington",
-      "birthdate": "Feb 04 1987",
-      "jobarea": "Directives",
-      "companyname": "Daugherty - Daugherty",
-      "creditcardnum": "3490-367973-89115"
-    },
-    {
-      "id": "wi9535gp30qx",
-      "name": "Meghan Jones",
-      "email": "Meghan0@hotmail.com",
-      "address": "694 Viola Gardens Suite 222 North Ford",
-      "birthdate": "Jan 18 1996",
-      "jobarea": "Directives",
-      "companyname": "Kling and Sons",
-      "creditcardnum": "6767-5300-7817-9344"
-    },
-    {
-      "id": "vz1484rovg30",
-      "name": "Ed Harris",
-      "email": "Ed_Harris@gmail.com",
-      "address": "4653 Gerlach Fort Apt. 730 Lake Ridge",
-      "birthdate": "Nov 30 1962",
-      "jobarea": "Assurance",
-      "companyname": "Metz - Funk",
-      "creditcardnum": "6771-8929-8125-4539"
-    },
-    {
-      "id": "to8739jitu30",
-      "name": "Matthew Lebsack",
-      "email": "Matthew.Lebsack@gmail.com",
-      "address": "88426 Bauch Walk Apt. 828 Lake Shaun",
-      "birthdate": "Jun 02 1989",
-      "jobarea": "Group",
-      "companyname": "Ullrich, Nicolas and Pfannerstill",
-      "creditcardnum": "3445-580319-55901"
-    },
+  "customers": [
     {
       "id": "9068nr81ojtf",
       "name": "Sharon Zemlak",

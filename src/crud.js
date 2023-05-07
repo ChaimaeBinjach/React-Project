@@ -46,12 +46,3 @@ export async function deleteCustomer(id) {
     console.error(error);
   }
 }
-
-export async function deleteAllCustomers() {
-  try {
-    const response = await axios.delete(`${API_BASE_URL}/customers`);
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-}
