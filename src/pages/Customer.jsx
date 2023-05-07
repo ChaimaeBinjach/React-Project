@@ -69,9 +69,7 @@ const Customer = () => {
             <Button variant="danger" onClick={handleDelete} disabled={deleteMutation.isLoading}>
               {deleteMutation.isLoading ? "Deleting..." : "Delete"}
             </Button>{" "}
-            <Button variant="secondary" onClick={() => navigate("/customers")}>
-              Back to List Customers
-            </Button>
+
           </div>
         </Col>
       </Row>

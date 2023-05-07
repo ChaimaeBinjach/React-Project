@@ -1,5 +1,5 @@
 .navbar {
-  background: #333;
+  background: rgb(13, 130, 181);
   color: #fff;
 }
 
@@ -9,18 +9,18 @@
 }
 
 .list_item:hover {
-  color: rgb(85, 90, 85);
+  color:rgb(98, 164, 222);
 }
 
 .btn {
-  background: rgb(113, 114, 113);
+  background: rgb(26, 119, 159);
   border: none;
   border-radius: 20px;
   color: #fff;
 }
 
 .btn:hover {
-  background: rgb(113, 130, 88);
+  background: rgb(98, 164, 222);
 }
 
 .customer-container {

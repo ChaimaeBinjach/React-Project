@@ -52,7 +52,7 @@ const Customers = () => {
             <th>Job Area</th>
             <th>Company Name</th>
             <th>Credit Card Number</th>
-            <th colspan="3">Actions</th>
+            <th colSpan="3">Actions</th>
           </tr>
         </thead>
         <tbody>

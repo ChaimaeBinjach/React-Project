@@ -259,6 +259,16 @@
       "jobarea": "Cs",
       "companyname": "HimooTech",
       "creditcardnum": "2156 3135 3563 3169"
+    },
+    {
+      "id": "afeea65a-759a-403b-920b-4f36f1901af6",
+      "name": "shiny",
+      "email": "shimi@gmail.com",
+      "address": "Boszorkány road 2.",
+      "birthdate": "2023-05-19",
+      "jobarea": "Cs",
+      "companyname": "HimooTech",
+      "creditcardnum": "4111 2222 3333 4444"
     }
   ]
 }

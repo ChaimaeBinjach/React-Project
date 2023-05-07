@@ -8,11 +8,10 @@ const NavBar = () => {
   return (
     <Navbar className="navbar" expand="lg">
       <Container>
-        <Navbar.Brand href="/" className="brand">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/" className="brand">Shiny Shimi</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/" className='list_item'>Home</Nav.Link>
             <Nav.Link href="/customers" className='list_item'>Customers</Nav.Link>
           </Nav>
           <Nav className="ms-auto">

@@ -1,15 +1,23 @@
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 const CustomerForm = ({ onSubmit, initialValue }) => {
+  const [customer, setCustomer] = useState(initialValue);
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
-    const customer = Object.fromEntries(formData.entries());
     onSubmit(customer);
-    
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setCustomer((prevCustomer) => ({
+      ...prevCustomer,
+      [name]: value,
+    }));
   };
 
   return (
@@ -22,7 +30,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
               type="text"
               placeholder="Enter name"
               name="name"
-             
+              value={customer.name}
+              onChange={handleChange}
             />
           </Form.Group>
 
@@ -32,7 +41,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
               type="email"
               placeholder="Enter email"
               name="email"
-              
+              value={customer.email}
+              onChange={handleChange}
             />
           </Form.Group>
         </Row>
@@ -42,7 +52,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
           <Form.Control
             placeholder="Enter address"
             name="address"
-           
+            value={customer.address}
+            onChange={handleChange}
           />
         </Form.Group>
 
@@ -52,7 +63,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
             type="date"
             placeholder="Enter birth date"
             name="birthdate"
-            
+            value={customer.birthdate}
+            onChange={handleChange}
           />
         </Form.Group>
 
@@ -61,7 +73,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
           <Form.Control
             placeholder="Enter job area"
             name="jobarea"
-            
+            value={customer.jobarea}
+            onChange={handleChange}
           />
         </Form.Group>
 
@@ -70,7 +83,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
           <Form.Control
             placeholder="Enter company name"
             name="companyname"
-            
+            value={customer.companyname}
+            onChange={handleChange}
           />
         </Form.Group>
 
@@ -80,7 +94,8 @@ const CustomerForm = ({ onSubmit, initialValue }) => {
             type="text"
             placeholder="Enter credit card number"
             name="creditcardnum"
-            
+            value={customer.creditcardnum}
+            onChange={handleChange}
           />
         </Form.Group>
 
