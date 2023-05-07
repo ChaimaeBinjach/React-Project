@@ -26,6 +26,7 @@ export async function createCustomer(newCustomer) {
     return response.data;
   } catch (error) {
     console.error(error);
+    throw error; // Rethrow the error to handle it in the component
   }
 }
 

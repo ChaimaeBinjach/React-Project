@@ -41,7 +41,7 @@ const Customers = () => {
 
   return (
     <div>
-      <Table striped bordered hover variant="dark">
+      <Table responsive="xl" bordered hover>
         <thead>
           <tr>
             <th>#</th>
@@ -52,7 +52,7 @@ const Customers = () => {
             <th>Job Area</th>
             <th>Company Name</th>
             <th>Credit Card Number</th>
-            <th colSpan="3">Actions</th>
+            <th colspan="3">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -67,13 +67,13 @@ const Customers = () => {
               <td>{customer.companyname}</td>
               <td>{customer.creditcardnum}</td>
               <td>
-                <Button  onClick={() => navigate(`/customers/${customer.id}`)}>View</Button>
+                <Button variant="info" onClick={() => navigate(`/customer/${customer.id}`)}>View</Button>
               </td>
               <td>
-                <Button  onClick={() => navigate(`/customers/${customer.id}`)}>Edit</Button>
+                <Button variant="warning" onClick={() => navigate(`/customer/${customer.id}/edit`)}>Edit</Button>
               </td>
-              <td>
-                <Button  onClick={() => handleDelete(customer.id)}>Delete</Button>
+              <td> 
+                 <Button variant="danger" onClick={() => handleDelete(customer.id)}>Delete</Button>
               </td>
             </tr>
           ))}

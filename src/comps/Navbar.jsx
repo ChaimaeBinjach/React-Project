@@ -16,7 +16,7 @@ const NavBar = () => {
             <Nav.Link href="/customers" className='list_item'>Customers</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <button onClick={() =>navigate(`/addcostumer`)} className="btn btn-success">Add Customer</button>
+            <button onClick={() =>navigate(`/addcustomer`)} className="btn btn-success">Add Customer</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

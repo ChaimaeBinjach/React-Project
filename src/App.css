@@ -1,23 +1,66 @@
 .navbar {
-  background: #2e158c;
+  background: #333;
+  color: #fff;
 }
 
 .brand,
 .list_item {
-  color: #fff !important;
+  color: #fff;
 }
 
 .list_item:hover {
-  color: tomato !important;
+  color: rgb(85, 90, 85);
 }
 
 .btn {
-  background: tomato !important;
+  background: rgb(113, 114, 113);
   border: none;
   border-radius: 20px;
-  color: #fff !important;
+  color: #fff;
 }
 
 .btn:hover {
-  background: #ff6347 !important;
+  background: rgb(113, 130, 88);
+}
+
+.customer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.customer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.customer-info {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.customer-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.customer-actions button {
+  margin-right: 10px;
+}
+
+.customer-actions button:last-child {
+  margin-right: 0;
 }
